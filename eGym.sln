@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eGym.Web", "eGym.Web\eGym.Web.csproj", "{44B1952C-9901-4E22-AE9A-3EA01E796023}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44B1952C-9901-4E22-AE9A-3EA01E796023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B1952C-9901-4E22-AE9A-3EA01E796023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B1952C-9901-4E22-AE9A-3EA01E796023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B1952C-9901-4E22-AE9A-3EA01E796023}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFA1DA27-4715-4CB8-BC1A-703EE2CA4169}
+	EndGlobalSection
+EndGlobal
