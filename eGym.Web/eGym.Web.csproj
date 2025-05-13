@@ -113,6 +113,16 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eGym.BusinessLogic\eGym.BusinessLogic.csproj">
+      <Project>{e1fc99bd-af98-44e7-8ee2-d6f93ea2ca53}</Project>
+      <Name>eGym.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\eGym.Domain\eGym.Domain.csproj">
+      <Project>{a9951d3b-b4a0-4e65-8aca-58163e858f4c}</Project>
+      <Name>eGym.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
